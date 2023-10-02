@@ -1,0 +1,34 @@
+body {
+  background-color: #232425;
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #c790f1;
+}
+
+.hint {
+  color: #c790f1;
+  font-size: 2rem;
+}
+
+#linkGroup {
+  margin: 3rem 1rem;
+}
+
+.linkBox {
+  padding: 1rem;
+  margin: 0 2rem;
+  text-decoration: underline;
+  text-decoration-color: #f0f0f0;
+  font-size: 2rem;
+}
