@@ -32,3 +32,49 @@ a:hover {
   text-decoration-color: #f0f0f0;
   font-size: 2rem;
 }
+
+/* Company Page */
+
+#companyInfo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 20%;
+}
+
+.infoBlock {
+  background-color: #f0f0f0;
+  color: #232425;
+  padding: 2rem;
+  margin: 1rem 3rem;
+  width: 20%;
+}
+
+.infoHeader {
+  color: #c790f1;
+  font-size: 1.4rem;
+}
+
+.divider {
+  background-color: #232425;
+  height: 0.1rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
