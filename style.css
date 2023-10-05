@@ -62,7 +62,60 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+/* Mobile Responsiveness */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
+  #companyInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .infoBlock {
+    background-color: #f0f0f0;
+    color: #232425;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80vw;
+  }
+}
+
+@media (min-width: 280px) and (max-height: 700px) {
   #companyInfo {
     display: flex;
     justify-content: space-around;
